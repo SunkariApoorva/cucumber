@@ -1,0 +1,194 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Enter Github Home Page",
+        "description": "",
+        "id": "github-login;enter-github-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Open github",
+            "match": {
+              "location": "GithubLoginStepDefinition.open_github()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User enters invalid username",
+            "match": {
+              "location": "GithubLoginStepDefinition.user_enter_invalid_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User should get the message \u0027Incorrect username or password\u0027",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User enters invalid password",
+            "match": {
+              "location": "GithubLoginStepDefinition.user_enter_invalid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "User should get the message \u0027Incorrect username or password\u0027",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User enters valid username and password",
+            "match": {
+              "location": "GithubLoginStepDefinition.user_enter_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User should be Successfully LoggedIn",
+            "match": {
+              "location": "GithubLoginStepDefinition.user_should_be_successfully_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@sanity"
+          },
+          {
+            "line": 2,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Enter Github Home Page",
+        "description": "",
+        "id": "github-login;enter-github-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Open github",
+            "match": {
+              "location": "GithubLoginStepDefinition.open_github()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "User enters invalid username",
+            "match": {
+              "location": "GithubLoginStepDefinition.user_enter_invalid_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "User should get the message \u0027Incorrect username or password\u0027",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User enters invalid password",
+            "match": {
+              "location": "GithubLoginStepDefinition.user_enter_invalid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "User should get the message \u0027Incorrect username or password\u0027",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "User enters valid username and password",
+            "match": {
+              "location": "GithubLoginStepDefinition.user_enter_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "User should be Successfully LoggedIn",
+            "match": {
+              "location": "GithubLoginStepDefinition.user_should_be_successfully_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "GitHub Login",
+    "description": "",
+    "id": "github-login",
+    "keyword": "Feature",
+    "uri": "GithubLoginValid.feature"
+  }
+]
